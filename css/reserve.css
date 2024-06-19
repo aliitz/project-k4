@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Iranian Sans";
+  src: url("../font/irsans.ttf");
+}
+* {
+  font-family: "Iranian sans";
+  direction: rtl;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dedede;
+}
+.contianer {
+  display: flex;
+  justify-content: center;
+}
+
+.info-room {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 72rem;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+
+.header-info {
+  margin: 1rem;
+}
+
+.type-room {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.detial-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  margin: 2rem 0 0 0;
+  width: 50%;
+  border: solid rgba(41, 41, 41, 0.204) 1px;
+}
+.most-bad {
+  font-size: 1.5rem;
+}
+.information {
+  margin: 0 1rem 1rem 0;
+  padding: 5px 0;
+}
+.green-color {
+  color: #5db753;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.booker-information {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 1rem 0;
+  width: 100vw;
+  max-width: 72rem;
+}
+
+.header-booker {
+  margin: 1rem;
+}
+
+.form-booker-information {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-booker-information label {
+  margin: 0.5rem 0;
+}
+
+.form-booker-information input {
+  padding: 0.5rem;
+  border: solid rgba(7, 7, 7, 0.834) 1px;
+  border-radius: 3px;
+}
+
+.form-booker-information input {
+  width: 33%;
+  margin-bottom: 0.3rem;
+}
+
+.role {
+  color: red;
+}
+
+.lbl-role {
+  margin: 1rem 1rem;
+}
+.btn-reserv {
+  padding: 1rem;
+  background-color: #ff515b;
+  border: none;
+  border-radius: 10px;
+  font-family: "Iranian Sans", sans-serif;
+  cursor: pointer;
+  width: 20%;
+  align-self: center;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.btn-reserv:hover {
+  background-color: #e83b44;
+  box-shadow: 0 4px 8px 0 rgba(234, 91, 98, 0.736),
+    0 6px 20px 0 rgba(234, 91, 98, 0.5);
+}
